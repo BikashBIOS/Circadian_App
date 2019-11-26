@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="@drawable/fot"
+    android:background="@mipmap/stepsb"
     tools:context=".StepCount">
 
 
@@ -15,16 +15,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/font"
-        android:textAlignment="center"
         android:text="Steps="
-        android:textColor="@color/colorAccent"
-        android:textSize="70sp"/>
+        android:textAlignment="center"
+        android:textColor="#ffdf00"
+        android:textSize="70sp"
+        android:layout_marginTop="230dp"/>
 
     <Button
         android:id="@+id/reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/background_button"
         android:textColor="#ffffffff"
         android:textSize="22sp"

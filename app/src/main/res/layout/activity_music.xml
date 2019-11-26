@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@drawable/musicb"
     tools:context=".MusicActivity">
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,22 +17,22 @@
         <ImageView
             android:layout_width="250dp"
             android:layout_height="250dp"
-            android:src="@drawable/logo" />
+            android:src="@mipmap/musicy" />
 
         <TextView
+            android:id="@+id/songLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
             android:text="Song Name"
             android:textAlignment="center"
-            android:id="@+id/songLabel"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_marginTop="20dp"
-            android:singleLine="true"
-            android:marqueeRepeatLimit="marquee_forever"
-            android:ellipsize="marquee"
-            android:scrollHorizontally="true"
-            android:textColor="@color/colorPrimary"/>
+            android:textColor="#ffdf00"
+            android:textSize="28sp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
@@ -47,29 +48,35 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/seekbar"
+                android:outlineAmbientShadowColor="#ffdf00"
+                android:outlineSpotShadowColor="#ffdf00"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="40dp"/>
             <Button
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_centerHorizontal="true"
-                android:background="@drawable/icon_pause"
+                android:background="@mipmap/pausey"
                 android:id="@+id/pause"
                 android:layout_marginTop="5dp"/>
+
             <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
                 android:id="@+id/next"
-                android:layout_toRightOf="@+id/pause"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="82dp"
                 android:layout_marginTop="15dp"
-                android:background="@drawable/icon_next"/>
+                android:layout_toRightOf="@+id/pause"
+                android:background="@mipmap/nextyy" />
+
             <Button
+                android:id="@+id/previous"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="15dp"
-                android:id="@+id/previous"
+                android:layout_marginRight="88dp"
                 android:layout_toLeftOf="@id/pause"
-                android:background="@drawable/icon_previous"/>
+                android:background="@mipmap/previousy" />
 
         </RelativeLayout>
     </LinearLayout>

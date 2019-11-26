@@ -123,12 +123,12 @@ public class MusicActivity extends AppCompatActivity {
                 songSeekBar.setMax(mediaPlayer.getDuration());
                 if (mediaPlayer.isPlaying())
                 {
-                    btn_pause.setBackgroundResource(R.drawable.icon_play);
+                    btn_pause.setBackgroundResource(R.mipmap.playy);
                     mediaPlayer.pause();
                 }
                 else
                 {
-                    btn_pause.setBackgroundResource(R.drawable.icon_pause);
+                    btn_pause.setBackgroundResource(R.mipmap.pausey);
                     mediaPlayer.start();
                 }
             }
@@ -174,12 +174,12 @@ public class MusicActivity extends AppCompatActivity {
                 if (sensorEvent.values[0] == 0){
                     if (mediaPlayer.isPlaying())
                     {
-                        btn_pause.setBackgroundResource(R.drawable.icon_play);
+                        btn_pause.setBackgroundResource(R.mipmap.playy);
                         mediaPlayer.pause();
                     }
                     else
                     {
-                        btn_pause.setBackgroundResource(R.drawable.icon_pause);
+                        btn_pause.setBackgroundResource(R.mipmap.pausey);
                         mediaPlayer.start();
                     }
                 }

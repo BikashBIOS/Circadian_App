@@ -1,5 +1,6 @@
 package com.example.miniproject;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("All In One");
         music=findViewById(R.id.music);
         step=findViewById(R.id.step);
         google=findViewById(R.id.google);
@@ -63,4 +65,5 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 }
