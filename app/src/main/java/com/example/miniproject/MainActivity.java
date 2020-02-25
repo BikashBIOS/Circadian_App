@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button music,step,google,facebook,video;
+    Button music,step,google,facebook,video,calculator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         google=findViewById(R.id.google);
         video=findViewById(R.id.video);
         facebook=findViewById(R.id.fb);
+        calculator=findViewById(R.id.cal);
 
         music.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +59,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(MainActivity.this,Facebook.class);
+                startActivity(intent);
+            }
+        });
+
+        calculator.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,Calculator.class);
                 startActivity(intent);
             }
         });
