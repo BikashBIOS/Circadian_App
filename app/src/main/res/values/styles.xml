@@ -7,5 +7,28 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <!-- Hint for first operand EditText -->
+    <string name="type_operand_one_hint">Type Operand 1</string>
+
+    <!-- Hint for second operand EditText -->
+    <string name="type_operand_two_hint">Type Operand 2</string>
+
+    <string name="add_operation_text">Add</string>
+
+    <!-- Button label for subtract operation -->
+    <string name="sub_operation_text">Sub</string>
+
+    <!-- Button label for divide operation -->
+    <string name="div_operation_text">Div</string>
+
+    <!-- Button label for mul operation -->
+    <string name="mul_operation_text">Mul</string>
+
+    <!-- Message for textview in case of errors  -->
+    <string name="computationError">Error</string>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
 
 </resources>

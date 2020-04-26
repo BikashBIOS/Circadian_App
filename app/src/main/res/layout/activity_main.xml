@@ -92,11 +92,11 @@
             android:layout_height="wrap_content"/>
 
         <ImageView
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:src="@mipmap/calc"
+            android:layout_width="124dp"
+            android:layout_height="123dp"
             android:layout_marginLeft="120dp"
-            android:layout_marginTop="25dp"/>
+            android:layout_marginTop="25dp"
+            android:src="@mipmap/calc" />
 
         <Button
             android:text="Calculator"

@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF8C00"
+    android:background="#000"
     tools:context=".ImageView1">
 
     <ImageView
         android:layout_width="350dp"
         android:layout_height="400dp"
         android:layout_marginTop="150dp"
-        android:src="@mipmap/prolific"
+        android:src="@drawable/main_logo"
+        android:layout_marginLeft="7dp"
         android:id="@+id/imageView"/>
 
 </LinearLayout>

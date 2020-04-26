@@ -40,6 +40,7 @@ public class ImageView1 extends AppCompatActivity {
 
 
         image.startAnimation(topAnim);
+        image.startAnimation(bottomAnim);
 
 
     }
