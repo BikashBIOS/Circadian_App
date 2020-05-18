@@ -29,26 +29,11 @@
         android:textSize="22sp"
         android:layout_height="wrap_content"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="117dp"
-        android:layout_marginTop="10dp"
-        android:src="@mipmap/steps" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:text="Step Counter"
-        android:background="@drawable/background_button"
-        android:layout_height="wrap_content"
-        android:textColor="#ffffffff"
-        android:textSize="22sp"
-        android:id="@+id/step"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="124dp"
-        android:layout_marginTop="16dp"
-        android:src="@mipmap/vdi" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/vdi" />
 
         <Button
             android:id="@+id/video"
@@ -58,38 +43,6 @@
             android:text="VideoPlayer"
             android:textColor="#ffffffff"
             android:textSize="22sp" />
-
-        <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:src="@mipmap/goog"/>
-
-    <Button
-        android:text="Google"
-        android:id="@+id/google"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/background_button"
-        android:textSize="22sp"
-        android:textColor="#ffffffff"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/fb"
-        android:layout_marginTop="25dp"/>
-
-        <Button
-            android:text="Facebook"
-            android:id="@+id/fb"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/background_button"
-            android:textSize="22sp"
-            android:textColor="#ffffffff"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
 
         <ImageView
             android:layout_width="124dp"
@@ -107,6 +60,53 @@
             android:textColor="#ffffffff"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:src="@mipmap/goog"/>
+
+        <Button
+            android:text="Google"
+            android:id="@+id/google"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_button"
+            android:textSize="22sp"
+            android:textColor="#ffffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/fb"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:text="Facebook"
+            android:id="@+id/fb"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_button"
+            android:textSize="22sp"
+            android:textColor="#ffffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/steps" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Step Counter"
+        android:background="@drawable/background_button"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textSize="22sp"
+        android:id="@+id/step"/>
 
     </LinearLayout>
 </ScrollView>

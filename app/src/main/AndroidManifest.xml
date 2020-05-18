@@ -15,7 +15,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CalculatorMain" />
         <activity android:name=".Facebook" />
         <activity
             android:name=".VideoPlay"
@@ -26,6 +25,7 @@
         <activity android:name=".MusicActivity" />
         <activity android:name=".MusicPlayer" />
         <activity android:name=".MainActivity"/>
+        <activity android:name=".Calculatorr"/>
         <activity android:name=".ImageView1"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>

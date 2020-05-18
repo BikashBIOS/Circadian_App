@@ -65,12 +65,10 @@ public class MainActivity extends AppCompatActivity {
         calculator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this, CalculatorMain.class);
+                Intent intent=new Intent(MainActivity.this, Calculatorr.class);
                 startActivity(intent);
             }
         });
-
-
 
     }
 

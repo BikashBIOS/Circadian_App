@@ -14,7 +14,7 @@ public class ImageView1 extends AppCompatActivity {
 
     Animation topAnim, bottomAnim;
     ImageView image;
-    private static int splash=5000;
+    private static int splash=3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
